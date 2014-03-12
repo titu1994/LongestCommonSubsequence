@@ -65,6 +65,12 @@ void longestCommonSubsequence(char x[SIZE],char y[SIZE],char z[SIZE]){
 		else
 			j--;
 	}
+	
+	for(i = 0;i < m; i++){
+		for(j = 0; j < n; j++)
+			 printf("%d\t",T[i][j]);
+		printf("\n");
+	}
 
 	z[k] = '\0';
 	strrev(z);
