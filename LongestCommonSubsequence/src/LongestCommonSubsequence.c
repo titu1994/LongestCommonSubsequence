@@ -59,6 +59,7 @@ void longestCommonSubsequence(char x[SIZE],char y[SIZE],char z[SIZE]){
 		if(x[i-1] == y[j-1]) {
 			z[k++] = x[i-1];
 			i--;
+			j--;
 		}
 		else if(T[i-1][j] > T[i][j-1])
 			i--;
