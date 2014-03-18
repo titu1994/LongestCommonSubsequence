@@ -66,7 +66,8 @@ void longestCommonSubsequence(char x[SIZE],char y[SIZE],char z[SIZE]){
 		else
 			j--;
 	}
-	
+
+	printf("Longest Common Subsequence Matrix:\n");
 	for(i = 0;i < m; i++){
 		for(j = 0; j < n; j++)
 			 printf("%d\t",T[i][j]);
